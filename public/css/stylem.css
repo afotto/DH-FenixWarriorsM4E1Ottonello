@@ -93,6 +93,7 @@ body {
 }
 
 .main .ultima-visita .articulos  .descripcion i{
+        position: absolute;
         display: block;
         font-size: 16px;
         width: 30px;
@@ -118,18 +119,23 @@ body {
             width: 90%;
         }
         .descripcion{
+            position: relative;
             margin-top: 1px;
             padding: 0px 15px;
             border-top:#ebebeb solid 1px;
+            
         }
             .precios {
+                padding-top: 7px;
                 font-size: 18px;
             }
             .descuento {
                 font-size: 16px;
                 color:  #39b54a;
+                padding-top: 7px;
             }
             .titulares{
+                padding: 5px;
                 font-size: 16px;
             }
 
@@ -144,6 +150,7 @@ body {
     border-radius: 50%;
     background-color: #FFF;
     right: 20px;
+    position: absolute;
     top: -15px;
 }
     .ofertas{
@@ -162,16 +169,20 @@ body {
             margin-top: 1px;
             padding: 0px 15px;
             border-top:#ebebeb solid 1px;
+            position: relative;
         }
             .prec-of {
                 font-size: 18px;
+                padding-top: 7px;
             }
             .desc-of {
                 font-size: 16px;
                 color:  #39b54a;
+                padding-top: 7px;
             }
             .tit-of{
                 font-size: 16px;
+                padding: 5px;
             }
         
             
@@ -288,10 +299,10 @@ body {
                 flex: 1 1 100%;
             }*/
                 .precios{
-                    flex: 1 1 30%;
+                    flex: 1 1 40%;
                 }
                 .descuento{
-                    flex:1 1 70%;
+                    flex:1 1 60%;
                 }
                 .titulares{
                     flex:1 1 100%;
@@ -315,12 +326,13 @@ body {
                 display: flex;
                 flex: 2 1 auto;
                 flex-flow: row wrap;
+
             }
                 .prec-of{
-                    flex: 1 1 30%;
+                    flex: 1 1 40%;
                 }
                 .desc-of{
-                    flex:1 1 70%;
+                    flex:1 1 60%;
                 }
                 .tit-of{
                     flex:1 1 100%;
