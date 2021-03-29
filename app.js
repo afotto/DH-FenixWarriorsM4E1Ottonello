@@ -18,6 +18,10 @@ app.get('/register', (req, res) => {
     res.sendFile(path.join(__dirname, './views/register.html'));
 });
 
+app.get('/search', (req, res) => {
+    res.sendFile(path.join(__dirname, './views/search.html'));
+});
+
 app.listen(port, () => {
     console.log('Example app listening on port '+ port);
 });

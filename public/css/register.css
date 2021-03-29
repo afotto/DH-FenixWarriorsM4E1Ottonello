@@ -72,3 +72,13 @@ body {
         height: 15px;
         margin: 2px;
     }
+
+@media (min-width:860px){
+    .form{
+        justify-content: center;
+        display: flex;
+    }
+        .register{
+            width: 500px;
+        }
+}
