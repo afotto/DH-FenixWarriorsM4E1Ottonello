@@ -127,6 +127,7 @@ body {
 }
 .boton-formulario:hover{
     background-color: #0022AA;
+    /* transform: scale(1.1); */
 }
 
 /*=====================Footer=====================*/
@@ -142,6 +143,10 @@ body {
         background-color: #ebebeb;
         margin-bottom: 10px;
         font-size: 2em;
+    }
+    .footer i:hover{
+        color: #39b54a;
+        transform: scale(1.2);
     }
     .foot-i {
         background-color: #ebebeb;

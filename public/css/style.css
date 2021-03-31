@@ -83,7 +83,7 @@ body {
 }
 
 .img-banner{
-    max-width: 100%;
+    width: 100%;
 }
 
 /*===================== Main =====================*/
@@ -215,7 +215,10 @@ body {
         font-size: 2em;
     }
     /* M04C07 */
-    .footer i:hover { color: #39b54a;}
+    .footer i:hover { 
+        color: #39b54a;
+        transform: scale(1.2);
+    }
     .foot-i {
         background-color: #ebebeb;
     }
