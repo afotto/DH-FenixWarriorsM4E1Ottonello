@@ -214,6 +214,8 @@ body {
         margin-bottom: 10px;
         font-size: 2em;
     }
+    /* M04C07 */
+    .footer i:hover { color: #39b54a;}
     .foot-i {
         background-color: #ebebeb;
     }
@@ -403,6 +405,14 @@ body {
     }
         .art-ofertas{
             flex: 1 1 20%;
+        }
+    /* Footer desktop M04C07*/
+    .footer{
+        display: flex;
+        flex-flow: row wrap;
+    }
+        .foot-section{
+            flex: 3 1 30%;
         }
 
 }
