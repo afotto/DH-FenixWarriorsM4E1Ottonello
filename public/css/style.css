@@ -1,3 +1,12 @@
+@keyframes aparecer {
+    0%{
+        left: 50%;
+    }
+    100%{
+        left: 0;
+    }
+}
+
 * {
     box-sizing: border-box;
     margin: 0px;
@@ -45,11 +54,20 @@ body {
                 padding: 1px;
             }
         .copy-header {
+            position: relative;/* position relative para que no deje de ocupar espacio en el flujo de la web, pero permita que lo movamos */
             font-weight: 400;
             font-size: 14px;
             text-align: center;
             display: flex;
             flex: 1 1 auto;
+            animation: aparecer 500ms 1000ms 1 forwards;
+            /* 
+                animamos el elemento aplicando el keyframe "aparecer", 
+                    con duración de medio segundo, 
+                    delay de 1 seg.,  
+                    e indicamos con ¨forwards¨ que queremos que el elemento se mantenga en la posición final de la animación.
+            */
+
         }
     
 .hamburger-button{
