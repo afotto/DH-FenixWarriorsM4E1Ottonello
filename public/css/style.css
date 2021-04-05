@@ -45,6 +45,13 @@ body {
                 margin-right: 3px;
                 border: solid 1px;*/
             }
+            .input {
+                background-color: #FFF;
+                border: 1px solid #000;
+                outline: none;
+                color: #666;
+                padding: 2px;            
+            }
             .buscador i {
                 background-color: #ebebeb;
                 color:#666;
@@ -52,6 +59,15 @@ body {
                 border: solid 1px;*/
                 border-radius: 0px 4px 4px 0px;
                 padding: 1px;
+            }
+            .submit i {
+                background-color: #FFF;
+                /* border: 1px solid #000; */
+                color: #666;
+                /* width: 10%;             */
+                border-radius: 0px 4px 4px 0px;
+                padding: 1px;
+
             }
         .copy-header {
             position: relative;/* position relative para que no deje de ocupar espacio en el flujo de la web, pero permita que lo movamos */
